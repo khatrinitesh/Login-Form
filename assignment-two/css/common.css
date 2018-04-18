@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background:#76b852 linear-gradient(to left, #76b852, #8DC26F);
+	font-family: 'Roboto', sans-serif;
+}
+
+.clr::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ul,ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float: right;
+}
+
+/* START STYLING */
+.login_block{
+	max-width: 360px;
+	width: 100%;
+	background-color: #fff;
+	padding: 45px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	     -o-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+
+.login_block .form_group{
+	margin-bottom: 15px;
+}
+
+.login_block .form_group .form_control{
+	height: 47px;
+	line-height: 47px;
+	background-color: #f2f2f2;
+	padding: 0 0 0 16px;
+	outline: none;
+	border: none;
+	width: 100%;
+}
+
+.login_block .btn_login{
+	width: 100%;
+	background-color: #4caf50;
+	border: 1px solid #4caf50;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-bottom: 17px;
+}
+
+.login_block .message{
+	text-align: center;
+	color: #b3b3b3;
+	font-size: 12px;
+	display: block;
+}
+
+.login_block .message a{
+	color: #4CAF50;
+	text-decoration: none;
+	outline: none;
+}
